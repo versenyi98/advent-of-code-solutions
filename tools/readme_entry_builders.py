@@ -25,7 +25,7 @@ class AoCEntryBuilder(EntryBuilder):
 
         day = "%02d" % int(day)
 
-        path_to_solution = f"{constants.GITHUB_MASTER_BRANCH}/{quote(f'Advent of Code/{year}/Day {day} - {name}')}"
+        path_to_solution = f"{constants.GITHUB_MASTER_BRANCH}/{quote(f'solutions/{year}/Day {day} - {name}')}"
 
         self.entry = f"| {day} | [{name}]({url}) | [Solution]({path_to_solution})|\n"
         return self
