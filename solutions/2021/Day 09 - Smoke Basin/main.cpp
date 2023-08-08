@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include <vector>
-#include <string>
 #include <numeric>
+#include <string>
+#include <vector>
 
 #include "cave_heightmap.hpp"
 
