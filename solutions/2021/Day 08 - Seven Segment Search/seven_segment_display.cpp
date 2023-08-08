@@ -6,13 +6,8 @@
 #include <sstream>
 
 SevenSegmentDisplay::SevenSegmentDisplay(const std::vector<std::string> &&signal_patterns, const std::vector<std::string> &&output_values) : m_signal_patterns(signal_patterns), m_output_values(output_values) {
-    std::for_each(begin(m_signal_patterns), end(m_signal_patterns), [](std::string &signal) {
-        std::sort(begin(signal), end(signal));
-    });
-
-    std::for_each(begin(m_output_values), end(m_output_values), [](std::string &output) {
-        std::sort(begin(output), end(output));
-    });
+    sort_elements(m_signal_patterns);
+    sort_elements(m_output_values);
 }
 
 SevenSegmentDisplay SevenSegmentDisplay::parse(const std::string &line) {
@@ -32,6 +27,12 @@ SevenSegmentDisplay SevenSegmentDisplay::parse(const std::string &line) {
     std::copy(delimiter_pos + 1, end(tokens), std::back_inserter(output_values));
 
     return SevenSegmentDisplay(std::move(signal_patterns), std::move(output_values));
+}
+
+void SevenSegmentDisplay::sort_elements(std::vector<std::string>& v) {
+    std::for_each(begin(v), end(v), [](std::string &str) {
+        std::sort(begin(str), end(str));
+    });
 }
 
 const std::string SevenSegmentDisplay::find_signal_with_length(int length) const {
@@ -84,9 +85,7 @@ std::vector<int> SevenSegmentDisplay::solve() {
     signals[2] = std::string(1, top) + bottom + center + b_left + t_right;
     signals[6] = std::string(1, top) + bottom + center + t_left + b_left + b_right;
 
-    std::for_each(begin(signals), end(signals), [](std::string &signal) {
-        sort(begin(signal), end(signal));
-    });
+    sort_elements(signals);
 
     std::vector<int> result;
     std::transform(begin(m_output_values), end(m_output_values), std::back_inserter(result), [signals](const std::string &output) {
