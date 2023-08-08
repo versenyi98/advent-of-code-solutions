@@ -6,12 +6,13 @@
 
 class SevenSegmentDisplay {
 public:
-    SevenSegmentDisplay(const std::vector<std::string> &&signal_patterns, const std::vector<std::string> &&output_values);
     static SevenSegmentDisplay parse(const std::string &line);
 
     std::vector<int> solve();
 
 private:
+    SevenSegmentDisplay(const std::vector<std::string> &&signal_patterns, const std::vector<std::string> &&output_values);
+
     std::vector<std::string> m_signal_patterns;
     std::vector<std::string> m_output_values;
 
