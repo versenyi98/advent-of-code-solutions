@@ -3,3 +3,7 @@ main
 out
 **/__pycache__
 .idea/*
+*.pdb
+*.exe
+*.ilk
+*.obj
