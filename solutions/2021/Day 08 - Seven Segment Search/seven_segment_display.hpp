@@ -20,5 +20,9 @@ private:
     const char find_first_different_char(const std::string& str, const std::string& pattern) const;
     const std::string find_signal_with_length_and_segments(int length, const std::string& segments) const;
 
-    inline void sort_elements(std::vector<std::string>& v);
+    inline void sort_elements(std::vector<std::string>& v) {
+        std::for_each(begin(v), end(v), [](std::string &str) {
+            std::sort(begin(str), end(str));
+        });
+    }
 };

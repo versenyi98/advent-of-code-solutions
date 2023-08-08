@@ -29,12 +29,6 @@ SevenSegmentDisplay SevenSegmentDisplay::parse(const std::string &line) {
     return SevenSegmentDisplay(std::move(signal_patterns), std::move(output_values));
 }
 
-void SevenSegmentDisplay::sort_elements(std::vector<std::string>& v) {
-    std::for_each(begin(v), end(v), [](std::string &str) {
-        std::sort(begin(str), end(str));
-    });
-}
-
 const std::string SevenSegmentDisplay::find_signal_with_length(int length) const {
     return *std::find_if(begin(m_signal_patterns), end(m_signal_patterns), [length](const std::string &signal) {
         return signal.length() == length;
