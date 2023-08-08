@@ -12,7 +12,7 @@ public:
 private:
     explicit CaveHeightMap(std::vector<std::vector<int>> &&heightmap);
 
-    bool in_bounds (int row, int col) const;
+    bool in_bounds(int row, int col) const;
 
     std::vector<std::vector<int>> m_heightmap;
     int m_rows;
