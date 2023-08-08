@@ -8,3 +8,4 @@
 | 06 | [Lanternfish](https://adventofcode.com/2021/day/6) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2006%20-%20Lanternfish)|
 | 07 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2007%20-%20The%20Treachery%20of%20Whales)|
 | 08 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2008%20-%20Seven%20Segment%20Search)|
+| 09 | [Smoke Basin](https://adventofcode.com/2021/day/9) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2009%20-%20Smoke%20Basin)|
