@@ -9,3 +9,4 @@
 | 07 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2007%20-%20The%20Treachery%20of%20Whales)|
 | 08 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2008%20-%20Seven%20Segment%20Search)|
 | 09 | [Smoke Basin](https://adventofcode.com/2021/day/9) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2009%20-%20Smoke%20Basin)|
+| 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2010%20-%20Syntax%20Scoring)|
