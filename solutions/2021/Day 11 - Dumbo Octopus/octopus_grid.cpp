@@ -1,7 +1,6 @@
 #include "octopus_grid.hpp"
 
 #include <algorithm>
-#include <iostream>
 #include <numeric>
 
 OctopusGrid OctopusGrid::parse(std::vector<std::string> &lines) {
