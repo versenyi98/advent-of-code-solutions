@@ -12,3 +12,4 @@
 | 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2010%20-%20Syntax%20Scoring)|
 | 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2011%20-%20Dumbo%20Octopus)|
 | 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2012%20-%20Passage%20Pathing)|
+| 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2013%20-%20Transparent%20Origami)|
