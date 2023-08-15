@@ -15,6 +15,7 @@
 | 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2012%20-%20Passage%20Pathing)|
 | 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2013%20-%20Transparent%20Origami)|
 | 14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2014%20-%20Extended%20Polymerization)|
+| 15 | [Chiton](https://adventofcode.com/2021/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2015%20-%20Chiton)|
 ### 2022
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
