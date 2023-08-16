@@ -15,3 +15,4 @@
 | 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2013%20-%20Transparent%20Origami)|
 | 14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2014%20-%20Extended%20Polymerization)|
 | 15 | [Chiton](https://adventofcode.com/2021/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2015%20-%20Chiton)|
+| 16 | [Packet Decoder](https://adventofcode.com/2021/day/16) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2016%20-%20Packet%20Decoder)|
