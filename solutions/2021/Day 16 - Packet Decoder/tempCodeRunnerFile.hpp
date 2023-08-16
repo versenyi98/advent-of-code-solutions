@@ -1,1 +1,0 @@
-get_version_number_sum
