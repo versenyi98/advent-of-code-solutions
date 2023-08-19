@@ -17,3 +17,4 @@
 | 15 | [Chiton](https://adventofcode.com/2021/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2015%20-%20Chiton)|
 | 16 | [Packet Decoder](https://adventofcode.com/2021/day/16) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2016%20-%20Packet%20Decoder)|
 | 17 | [Trick Shot](https://adventofcode.com/2021/day/17) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2017%20-%20Trick%20Shot)|
+| 18 | [Snailfish](https://adventofcode.com/2021/day/18) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2021/Day%2018%20-%20Snailfish)|
