@@ -60,6 +60,7 @@ class AocWorkspaceCreator(WorkspaceCreator):
         self.problem_dir = self.solutions_dir / year_dir / problem_dir
 
         if not os.path.exists(self.problem_dir):
+            os.makedirs(os.path.dirname(self.problem_dir), exist_ok=True)
             os.mkdir(self.problem_dir)
 
     def write_testcases(self):
