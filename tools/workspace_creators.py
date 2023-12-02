@@ -1,11 +1,18 @@
 import json
 import os
+import re
 
 from pathlib import Path
 from abc import ABC, abstractmethod
 
 from problem_scrapers import AoCProblemScraper
 
+
+def make_windows_friendly(filename):
+    invalid_chars_regex = re.compile(r'[\/:*?"<>|]')
+    windows_friendly_filename = re.sub(invalid_chars_regex, '', filename)
+
+    return windows_friendly_filename
 
 class WorkspaceCreator(ABC):
     def __init__(self, url):
@@ -51,8 +58,11 @@ class AocWorkspaceCreator(WorkspaceCreator):
 
     def create_directory(self):
         year_dir = self.url.split('/')[-3]
+
         problem_dir = self.problem_scraper.get_problem_name()
         problem_dir = problem_dir.replace("-", "").strip().replace(":", " -")
+        problem_dir = make_windows_friendly(problem_dir)
+
         problem_dir_split = problem_dir.split()
         if len(problem_dir_split[1]) == 1:
             problem_dir_split[1] = "0" + problem_dir_split[1]
