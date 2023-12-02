@@ -8,6 +8,8 @@ def prepare_workspace_for_problem(url: str):
     workspace_creator = AocWorkspaceCreator(url)
     workspace_creator.create_workspace()
 
+    return workspace_creator.problem_dir
+
 
 def main():
     arg_parser = argparse.ArgumentParser()
