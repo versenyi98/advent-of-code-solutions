@@ -47,3 +47,7 @@
 | 23 | [Unstable Diffusion](https://adventofcode.com/2022/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2022/Day%2023%20-%20Unstable%20Diffusion)|
 | 24 | [Blizzard Basin](https://adventofcode.com/2022/day/24) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2022/Day%2024%20-%20Blizzard%20Basin)|
 | 25 | [Full of Hot Air](https://adventofcode.com/2022/day/25) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2022/Day%2025%20-%20Full%20of%20Hot%20Air)|
+### 2023
+| Day | Link to description | Link to solution
+|:---|:---|:---:|
+| 01 | [Trebuchet?!](https://adventofcode.com/2023/day/1) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2001%20-%20Trebuchet%3F%21)|
