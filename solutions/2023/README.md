@@ -3,3 +3,4 @@
 | 01 | [Trebuchet!](https://adventofcode.com/2023/day/1) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2001%20-%20Trebuchet%21)|
 | 02 | [Cube Conundrum](https://adventofcode.com/2023/day/2) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2002%20-%20Cube%20Conundrum)|
 | 03 | [Gear Ratios](https://adventofcode.com/2023/day/3) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2003%20-%20Gear%20Ratios)|
+| 04 | [Scratchcards](https://adventofcode.com/2023/day/4) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2004%20-%20Scratchcards)|
