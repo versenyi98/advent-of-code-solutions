@@ -6,3 +6,4 @@
 | 04 | [Scratchcards](https://adventofcode.com/2023/day/4) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2004%20-%20Scratchcards)|
 | 05 | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2005%20-%20If%20You%20Give%20A%20Seed%20A%20Fertilizer)|
 | 06 | [Wait For It](https://adventofcode.com/2023/day/6) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2006%20-%20Wait%20For%20It)|
+| 07 | [Camel Cards](https://adventofcode.com/2023/day/7) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2007%20-%20Camel%20Cards)|
