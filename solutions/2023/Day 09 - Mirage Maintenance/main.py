@@ -8,7 +8,7 @@ def solve(sequences):
         diffs = [current_sequence]
 
         while any(last := diffs[-1]):
-            diffs.append([last[i + 1] - last[i] for i in range(len(last) - 1)])
+            diffs.append([next - curr for next, curr in zip(last[1:], last)])
 
         prev = 0
         next = 0
