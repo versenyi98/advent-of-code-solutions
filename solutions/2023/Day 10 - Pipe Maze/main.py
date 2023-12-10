@@ -1,8 +1,5 @@
-import sys
-import re
-
 from collections import Counter
-from pathlib import Path
+import sys
 
 symbol_to_diff = {
     '|': [(+1, 0), (-1, 0)],
@@ -13,61 +10,72 @@ symbol_to_diff = {
     'F': [(+1, 0), (0, +1)],
 }
 
-
-
 def dfs(grid, row, col):
-    if row < 0 or row >= len(grid):
-        return
-    if col < 0 or col >= len(grid[0]):
-        return
+    queue = [(row, col)]
 
-    if grid[row][col] == '#':
-        return
+    while len(queue):
+        row, col = queue[0]
+        queue = queue[1:]
 
-    grid[row][col] = '#'
+        if row < 0 or row >= len(grid):
+            continue
+        if col < 0 or col >= len(grid[0]):
+            continue
 
-    for r in range(-1, 2):
-        for c in range(-1, 2):
-            if abs(r) + abs(c) == 1:
-                dfs(grid, row + r, col + c)
+        if grid[row][col] == '#':
+            continue
 
-def find_cycle(grid, pos, start_pos, prev_pos, result, positions):
-    row, col = pos
-    if result and pos == start_pos:
-        return result
+        grid[row][col] = '#'
 
-    if row == len(grid) or row < 0:
-        return -1
+        for r in range(-1, 2):
+            for c in range(-1, 2):
+                if abs(r) + abs(c) == 1:
+                    queue.append((row + r, col + c))
 
-    if col == len(grid[0]) or col < 0:
-        return -1
+def find_cycle(grid, pos):
+    start_pos = pos
+    states = [(pos, None, 0, [])]
 
-    positions += [pos]
-    symbol = grid[row][col]
+    saved_states = []
 
-    if symbol not in symbol_to_diff:
-        return -1
+    while len(states):
+        state = states[0]
+        position, prev_pos, result, positions = state
+        states = states[1:]
+        row, col = position
 
-    pos1 = (row + symbol_to_diff[symbol][0][0], col + symbol_to_diff[symbol][0][1])
-    pos2 = (row + symbol_to_diff[symbol][1][0], col + symbol_to_diff[symbol][1][1])
+        if result and position == start_pos:
+            saved_states.append(state)
+            continue
 
-    if prev_pos == None:
-        res1 = find_cycle(grid, pos1, start_pos, pos, result + 1, positions)
-        res2 = find_cycle(grid, pos2, start_pos, pos, result + 1, [])
-        if res1 == res2:
-            return res1
-        else:
-            return -1
-    if prev_pos == pos1:
-        return find_cycle(grid, pos2, start_pos, pos, result + 1, positions)
-    else:
-        return find_cycle(grid, pos1, start_pos, pos, result + 1, positions)
+        if row == len(grid) or row < 0:
+            continue
+
+        if col == len(grid[0]) or col < 0:
+            continue
+
+        symbol = grid[row][col]
+
+        if symbol not in symbol_to_diff:
+            continue
+
+        pos1 = (row + symbol_to_diff[symbol][0][0], col + symbol_to_diff[symbol][0][1])
+        pos2 = (row + symbol_to_diff[symbol][1][0], col + symbol_to_diff[symbol][1][1])
+
+        if prev_pos != pos1:
+            states.append((pos1, position, result + 1, positions + [position]))
+        if prev_pos != pos2:
+            states.append((pos2, position, result + 1, positions + [position]))
+
+    if len(saved_states) == 2 and saved_states[0][2] == saved_states[1][2]:
+        return (saved_states[0][2], saved_states[0][3])
+    return None
 
 def decrease_resolution(grid):
     return ["".join(line[::2]) for line in grid[::2]]
 
 def increase_resolution(grid):
-    result = [[] for i in range(len(grid) * 2)]
+    result = [[] for _ in range(len(grid) * 2)]
 
     for i, line in enumerate(grid):
         for entry in line:
@@ -78,9 +86,7 @@ def increase_resolution(grid):
 
 
 def main():
-    sys.setrecursionlimit(150000)
-    with open(Path(__file__).parent / 'in') as in_:
-        lines = [line.strip('\n') for line in in_.readlines()]
+    lines = [line.strip('\n') for line in sys.stdin.readlines()]
 
     for c, line in enumerate(lines):
         if 'S' in line:
@@ -89,13 +95,15 @@ def main():
             break
 
     for possible_type in ['|', '-', 'L', 'J', '7', 'F']:
-        positions = []
         lines[row] = lines[row][:col] + possible_type + lines[row][col + 1:]
-        length = find_cycle(lines, (row, col), (row, col), None, 0, positions)
-        if length != -1:
-            print(possible_type, length // 2)
+        result = find_cycle(lines, (row, col))
+
+        if result:
             break
-    
+
+    cycle_length, positions = result
+    print(possible_type, cycle_length // 2)
+
     for row_num, row in enumerate(lines):
         for col_num, col in enumerate(row):
             if (row_num, col_num) in positions:
@@ -120,10 +128,8 @@ def main():
         dfs(increased, len(increased) - 1, col_idx)
 
     decreased = decrease_resolution(increased)
-    inner = 0
 
-    for line in decreased:
-        inner += Counter(line).get('.', 0)
+    inner = len([dot for dot in "".join(decreased) if dot == "."])
     print(inner)
 
 if __name__ == "__main__":
