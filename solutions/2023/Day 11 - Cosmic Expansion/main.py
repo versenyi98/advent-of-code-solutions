@@ -25,10 +25,10 @@ def main():
             step_r = 1 if galaxy_a[0] < galaxy_b[0] else -1
             step_c = 1 if galaxy_a[1] < galaxy_b[1] else -1
 
-            for row in range(galaxy_a[0] + step_r, galaxy_b[0] + step_r, step_r):
+            for row in range(galaxy_a[0], galaxy_b[0], step_r):
                 task1 += 1 if row_has_galaxy[row] else 2
                 task2 += 1 if row_has_galaxy[row] else 1000000
-            for col in range(galaxy_a[1] + step_c, galaxy_b[1] + step_c, step_c):
+            for col in range(galaxy_a[1], galaxy_b[1], step_c):
                 task1 += 1 if col_has_galaxy[col] else 2
                 task2 += 1 if col_has_galaxy[col] else 1000000
 
