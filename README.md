@@ -60,3 +60,4 @@
 | 08 | [Haunted Wasteland](https://adventofcode.com/2023/day/8) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2008%20-%20Haunted%20Wasteland)|
 | 09 | [Mirage Maintenance](https://adventofcode.com/2023/day/9) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2009%20-%20Mirage%20Maintenance)|
 | 10 | [Pipe Maze](https://adventofcode.com/2023/day/10) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2010%20-%20Pipe%20Maze)|
+| 11 | [Cosmic Expansion](https://adventofcode.com/2023/day/11) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2011%20-%20Cosmic%20Expansion)|
