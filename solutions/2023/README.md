@@ -15,3 +15,4 @@
 | 13 | [Point of Incidence](https://adventofcode.com/2023/day/13) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2013%20-%20Point%20of%20Incidence)|
 | 14 | [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2014%20-%20Parabolic%20Reflector%20Dish)|
 | 15 | [Lens Library](https://adventofcode.com/2023/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2015%20-%20Lens%20Library)|
+| 16 | [The Floor Will Be Lava](https://adventofcode.com/2023/day/16) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2016%20-%20The%20Floor%20Will%20Be%20Lava)|
