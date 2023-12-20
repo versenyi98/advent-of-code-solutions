@@ -19,3 +19,4 @@
 | 17 | [Clumsy Crucible](https://adventofcode.com/2023/day/17) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2017%20-%20Clumsy%20Crucible)|
 | 18 | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2018%20-%20Lavaduct%20Lagoon)|
 | 19 | [Aplenty](https://adventofcode.com/2023/day/19) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2019%20-%20Aplenty)|
+| 20 | [Pulse Propagation](https://adventofcode.com/2023/day/20) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2020%20-%20Pulse%20Propagation)|
