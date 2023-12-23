@@ -20,4 +20,5 @@
 | 18 | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2018%20-%20Lavaduct%20Lagoon)|
 | 19 | [Aplenty](https://adventofcode.com/2023/day/19) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2019%20-%20Aplenty)|
 | 20 | [Pulse Propagation](https://adventofcode.com/2023/day/20) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2020%20-%20Pulse%20Propagation)|
+| 22 | [Sand Slabs](https://adventofcode.com/2023/day/22) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2022%20-%20Sand%20Slabs)|
 | 23 | [A Long Walk](https://adventofcode.com/2023/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2023%20-%20A%20Long%20Walk)|
