@@ -22,3 +22,4 @@
 | 20 | [Pulse Propagation](https://adventofcode.com/2023/day/20) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2020%20-%20Pulse%20Propagation)|
 | 22 | [Sand Slabs](https://adventofcode.com/2023/day/22) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2022%20-%20Sand%20Slabs)|
 | 23 | [A Long Walk](https://adventofcode.com/2023/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2023%20-%20A%20Long%20Walk)|
+| 24 | [Never Tell Me The Odds](https://adventofcode.com/2023/day/24) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2024%20-%20Never%20Tell%20Me%20The%20Odds)|
