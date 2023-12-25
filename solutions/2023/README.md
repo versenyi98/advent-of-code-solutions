@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 25 | [Snowverload](https://adventofcode.com/2023/day/25) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2025%20-%20Snowverload)|
 | 24 | [Never Tell Me The Odds](https://adventofcode.com/2023/day/24) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2024%20-%20Never%20Tell%20Me%20The%20Odds)|
 | 23 | [A Long Walk](https://adventofcode.com/2023/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2023%20-%20A%20Long%20Walk)|
 | 22 | [Sand Slabs](https://adventofcode.com/2023/day/22) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2022%20-%20Sand%20Slabs)|
