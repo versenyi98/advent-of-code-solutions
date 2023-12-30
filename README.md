@@ -5,6 +5,7 @@
 | 24 | [Never Tell Me The Odds](https://adventofcode.com/2023/day/24) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2024%20-%20Never%20Tell%20Me%20The%20Odds)|
 | 23 | [A Long Walk](https://adventofcode.com/2023/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2023%20-%20A%20Long%20Walk)|
 | 22 | [Sand Slabs](https://adventofcode.com/2023/day/22) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2022%20-%20Sand%20Slabs)|
+| 21 | [Step Counter](https://adventofcode.com/2023/day/21) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2021%20-%20Step%20Counter)|
 | 20 | [Pulse Propagation](https://adventofcode.com/2023/day/20) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2020%20-%20Pulse%20Propagation)|
 | 19 | [Aplenty](https://adventofcode.com/2023/day/19) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2019%20-%20Aplenty)|
 | 18 | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2023/Day%2018%20-%20Lavaduct%20Lagoon)|
