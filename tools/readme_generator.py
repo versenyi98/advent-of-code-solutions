@@ -70,7 +70,7 @@ class RecursiveReadmeWriter:
                     with open(path / "DESCRIPTION.md", "r") as description_handle:
                         readme_handle.write(description_handle.read())
 
-                content = sorted(os.listdir(path))
+                content = reversed(sorted(os.listdir(path)))
                 for element in content:
                     element_path = path / str(element)
                     if os.path.isdir(element_path):
@@ -88,7 +88,7 @@ def main():
     base_path = Path(__file__).parent.parent
 
     main_readme_content = []
-    for element in sorted(glob.glob("solutions/*")):
+    for element in reversed(sorted(glob.glob("solutions/*"))):
         if os.path.isdir(element):
             generate_readme(base_path / element, AoCReadmeContentProvider())
             main_readme_content += [f"### {Path(element).stem}\n"]
