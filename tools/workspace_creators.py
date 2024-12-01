@@ -81,7 +81,7 @@ class AocWorkspaceCreator(WorkspaceCreator):
         day = self.url.split('/')[-1]
 
         info = {
-            "Name": self.problem_name,
+            "Name": self.problem_name.split('-')[-1].strip(),
             "URL": self.url,
             "Year": year,
             "Day": day
