@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 07 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2007%20-%20Bridge%20Repair)|
 | 06 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2006%20-%20Guard%20Gallivant)|
 | 05 | [Print Queue](https://adventofcode.com/2024/day/5) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2005%20-%20Print%20Queue)|
 | 04 | [Ceres Search](https://adventofcode.com/2024/day/4) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2004%20-%20Ceres%20Search)|
