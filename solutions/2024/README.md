@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 09 | [Disk Fragmenter](https://adventofcode.com/2024/day/9) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2009%20-%20Disk%20Fragmenter)|
 | 08 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2008%20-%20Resonant%20Collinearity)|
 | 07 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2007%20-%20Bridge%20Repair)|
 | 06 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2006%20-%20Guard%20Gallivant)|
