@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 12 | [Garden Groups](https://adventofcode.com/2024/day/12) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2012%20-%20Garden%20Groups)|
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2011%20-%20Plutonian%20Pebbles)|
 | 10 | [Hoof It](https://adventofcode.com/2024/day/10) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2010%20-%20Hoof%20It)|
 | 09 | [Disk Fragmenter](https://adventofcode.com/2024/day/9) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2009%20-%20Disk%20Fragmenter)|
