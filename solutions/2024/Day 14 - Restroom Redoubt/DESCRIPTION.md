@@ -1,0 +1,1 @@
+<img src="./AoC-2024-Day-14.png" width="500" />
