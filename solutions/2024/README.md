@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 16 | [Reindeer Maze](https://adventofcode.com/2024/day/16) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2016%20-%20Reindeer%20Maze)|
 | 15 | [Warehouse Woes](https://adventofcode.com/2024/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2015%20-%20Warehouse%20Woes)|
 | 14 | [Restroom Redoubt](https://adventofcode.com/2024/day/14) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2014%20-%20Restroom%20Redoubt)|
 | 13 | [Claw Contraption](https://adventofcode.com/2024/day/13) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2013%20-%20Claw%20Contraption)|
