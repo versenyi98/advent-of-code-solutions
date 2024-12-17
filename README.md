@@ -1,6 +1,7 @@
 ### 2024
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 17 | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2017%20-%20Chronospatial%20Computer)|
 | 16 | [Reindeer Maze](https://adventofcode.com/2024/day/16) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2016%20-%20Reindeer%20Maze)|
 | 15 | [Warehouse Woes](https://adventofcode.com/2024/day/15) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2015%20-%20Warehouse%20Woes)|
 | 14 | [Restroom Redoubt](https://adventofcode.com/2024/day/14) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2014%20-%20Restroom%20Redoubt)|
