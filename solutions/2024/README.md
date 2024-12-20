@@ -1,5 +1,6 @@
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 20 | [Race Condition](https://adventofcode.com/2024/day/20) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2020%20-%20Race%20Condition)|
 | 19 | [Linen Layout](https://adventofcode.com/2024/day/19) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2019%20-%20Linen%20Layout)|
 | 18 | [RAM Run](https://adventofcode.com/2024/day/18) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2018%20-%20RAM%20Run)|
 | 17 | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2017%20-%20Chronospatial%20Computer)|
