@@ -1,6 +1,8 @@
 ### 2024
 | Day | Link to description | Link to solution
 |:---|:---|:---:|
+| 25 | [Code Chronicle](https://adventofcode.com/2024/day/25) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2025%20-%20Code%20Chronicle)|
+| 24 | [Crossed Wires](https://adventofcode.com/2024/day/24) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2024%20-%20Crossed%20Wires)|
 | 23 | [LAN Party](https://adventofcode.com/2024/day/23) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2023%20-%20LAN%20Party)|
 | 22 | [Monkey Market](https://adventofcode.com/2024/day/22) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2022%20-%20Monkey%20Market)|
 | 21 | [Keypad Conundrum](https://adventofcode.com/2024/day/21) | [Solution](https://github.com/versenyi98/advent-of-code-solutions/tree/main/solutions/2024/Day%2021%20-%20Keypad%20Conundrum)|
